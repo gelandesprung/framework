@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/home/yanchao/AndroidstudioProjects/framework/app/libs/gson-2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bd858833cacb4e6742f7698649fb874a360e230f">
+        <dex dex="/home/yanchao/AndroidstudioProjects/framework/app/build/intermediates/pre-dexed/debug/gson-2.1-04d10f97119fde52ef85a04ee135b584c4e46219.jar" />
+    </item>
+    <item
         jar="/home/yanchao/AndroidstudioProjects/MyApplication2/app/libs/gson-2.1.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -9,11 +16,11 @@
         <dex dex="/home/yanchao/AndroidstudioProjects/MyApplication2/app/build/intermediates/pre-dexed/debug/gson-2.1-56467e0edc585057c37795db06be9aa30bc1a780.jar" />
     </item>
     <item
-        jar="/home/yanchao/AndroidstudioProjects/MyApplication2/app/libs/gson-2.1-sources.jar"
+        jar="/home/yanchao/AndroidstudioProjects/framework/app/libs/gson-2.1-javadoc.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="57e219180b640a26672582a0f5943c0294477668">
-        <dex dex="/home/yanchao/AndroidstudioProjects/MyApplication2/app/build/intermediates/pre-dexed/debug/gson-2.1-sources-5791aba10224460ea11f75e67f02b783cd7fc7d3.jar" />
+        sha1="31ef5062ea8a5151e99de9b0cc1ef50e19ca1d88">
+        <dex dex="/home/yanchao/AndroidstudioProjects/framework/app/build/intermediates/pre-dexed/debug/gson-2.1-javadoc-5e3e23e32cc53e34de5217239d839cf84ac506a3.jar" />
     </item>
     <item
         jar="/home/yanchao/AndroidstudioProjects/MyApplication2/app/libs/xUtils-2.6.14.jar"
@@ -28,6 +35,27 @@
         revision="22.0.1"
         sha1="31ef5062ea8a5151e99de9b0cc1ef50e19ca1d88">
         <dex dex="/home/yanchao/AndroidstudioProjects/MyApplication2/app/build/intermediates/pre-dexed/debug/gson-2.1-javadoc-e3a3659af7cdac48d30c880a4845cf61ab32d594.jar" />
+    </item>
+    <item
+        jar="/home/yanchao/AndroidstudioProjects/framework/app/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/home/yanchao/AndroidstudioProjects/framework/app/build/intermediates/pre-dexed/debug/xUtils-2.6.14-a86e852cc5bc883e00c92c0e6efa9339ce547529.jar" />
+    </item>
+    <item
+        jar="/home/yanchao/AndroidstudioProjects/framework/app/libs/gson-2.1-sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57e219180b640a26672582a0f5943c0294477668">
+        <dex dex="/home/yanchao/AndroidstudioProjects/framework/app/build/intermediates/pre-dexed/debug/gson-2.1-sources-0996d3f3c2dd159b98f355019e482e3ce6101f83.jar" />
+    </item>
+    <item
+        jar="/home/yanchao/AndroidstudioProjects/MyApplication2/app/libs/gson-2.1-sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57e219180b640a26672582a0f5943c0294477668">
+        <dex dex="/home/yanchao/AndroidstudioProjects/MyApplication2/app/build/intermediates/pre-dexed/debug/gson-2.1-sources-5791aba10224460ea11f75e67f02b783cd7fc7d3.jar" />
     </item>
 
 </items>
