@@ -2,17 +2,48 @@ package com.learn.yanchao.framework;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
-
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
 
 public class MainActivity extends Activity {
 
+    ListView listview;
+    String[] data;
+    ArrayAdapter<String> adapter;
+    Button special_button;
+    ImageView iv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        data = new String[10];
+        listview = (ListView) findViewById(R.id.listview);
+        for(int i=0;i<10;i++){
+            data[i]="I'm "+i;
+        }
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, data);
+        listview.setAdapter(adapter);
+        iv = (ImageView) findViewById(R.id.iv_state);
+        special_button = (Button) findViewById(R.id.special_button);
+        special_button.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction()==MotionEvent.ACTION_DOWN){
+                    iv.setPressed(true);
+                }else{
+                    iv.setPressed(false);
+                }
+                return false;
+            }
+        });
     }
 
 
@@ -43,7 +74,7 @@ public class MainActivity extends Activity {
     public void onMiddleClick(View v){
 
     }
-    public void onRightClick(View v){
+    public void onRightClick(View v) {
 
     }
 }

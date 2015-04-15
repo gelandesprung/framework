@@ -51,6 +51,13 @@
         <dex dex="/home/yanchao/AndroidstudioProjects/framework/app/build/intermediates/pre-dexed/debug/gson-2.1-sources-0996d3f3c2dd159b98f355019e482e3ce6101f83.jar" />
     </item>
     <item
+        jar="/home/yanchao/AndroidstudioProjects/framework/app/libs/volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="/home/yanchao/AndroidstudioProjects/framework/app/build/intermediates/pre-dexed/debug/volley-b6b650fa915adb2372a90df3dd2e463636fd0f43.jar" />
+    </item>
+    <item
         jar="/home/yanchao/AndroidstudioProjects/MyApplication2/app/libs/gson-2.1-sources.jar"
         jumboMode="false"
         revision="22.0.1"

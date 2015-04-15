@@ -42,7 +42,81 @@
             android:layout_height="wrap_content" />
 
     </LinearLayout>
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+    <TextView android:text="@string/hello_world" android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_gravity="center"
         android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="左键"
+                android:id="@+id/special_button"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:onClick="onLeftClick"
+                android:background="@drawable/btn_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/iv_state"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="中键"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:onClick="onMiddleClick"
+                android:background="@drawable/btn_mid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="invisible"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="右键"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:onClick="onRightClick"
+                android:background="@drawable/btn_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="invisible"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </LinearLayout>
